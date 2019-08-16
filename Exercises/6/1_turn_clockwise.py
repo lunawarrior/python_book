@@ -10,6 +10,8 @@ from test import test
 
 # Define your turn_clockiwse function here
 
+
+# Here are the tests
 test(turn_clockwise("N") == "E")
 test(turn_clockwise("W") == "N")
 

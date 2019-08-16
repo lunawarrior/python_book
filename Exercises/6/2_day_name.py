@@ -5,8 +5,10 @@ Write a function day_name that converts an integer number 0 to 6 into the name o
 Assume day 0 is “Sunday”. Once again, return None if the arguments to the function are not valid. 
 Here are some tests that should pass:
 '''
+from test import test
 
 # Define your day_name function here
+
 
 # Here are the tests
 test(day_name(3) == "Wednesday")
