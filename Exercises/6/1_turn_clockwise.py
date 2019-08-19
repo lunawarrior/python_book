@@ -14,6 +14,11 @@ def turn_clockwise(direction):
         return "E"
     elif(direction == "W"):
         return ("N")
+    elif(direction == "E"):
+        return ("S")
+    elif(direction == "S"):
+        return ("W")
+
 
 # Here are the tests
 test(turn_clockwise("N") == "E")
@@ -21,5 +26,5 @@ test(turn_clockwise("W") == "N")
 test(turn_clockwise("E") == "S")
 
 ''' When you have those working, other values should return None.  Uncomment the below tests '''
-# test(turn_clockwise(42) == None)
-# test(turn_clockwise("rubbish") == None)
+test(turn_clockwise(42) == None)
+test(turn_clockwise("rubbish") == None)
