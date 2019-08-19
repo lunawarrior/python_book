@@ -14,6 +14,7 @@ from test import test
 # Here are the tests
 test(turn_clockwise("N") == "E")
 test(turn_clockwise("W") == "N")
+test(turn_clockwise("E") == "S")
 
 ''' When you have those working, other values should return None.  Uncomment the below tests '''
 # test(turn_clockwise(42) == None)
