@@ -9,6 +9,15 @@ and returns the next compass point in the clockwise direction. Here are some tes
 from test import test
 
 # Define your turn_clockiwse function here
+def turn_clockwise(direction):
+    if (direction == "N"):
+        return "E"
+    if (direction == "E"):
+        return "S"
+    if (direction == "S"):
+        return "W"
+    if (direction == "W"):
+        return "N"
 
 
 # Here are the tests
@@ -17,5 +26,5 @@ test(turn_clockwise("W") == "N")
 test(turn_clockwise("E") == "S")
 
 ''' When you have those working, other values should return None.  Uncomment the below tests '''
-# test(turn_clockwise(42) == None)
-# test(turn_clockwise("rubbish") == None)
+test(turn_clockwise(42) == None)
+test(turn_clockwise("rubbish") == None)
