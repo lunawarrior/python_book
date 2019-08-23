@@ -6,10 +6,10 @@ Write a function to sum all of the negative numbers in a list.
 from test import test
 
 #Define your sum_negative function here
-def sum_even(the_list):
+def sum_negative(the_list):
     total = 0
     for item in the_list:
-        if item % 2 == 0:
+        if item < 0:
             total = item + total
     return total
 
