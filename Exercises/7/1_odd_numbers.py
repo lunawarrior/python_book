@@ -7,6 +7,13 @@ Remember the definition of an odd number.  When divided by 2, the remainder shou
 from test import test
 
 #Define your count_odd function here
+def count_odd(the_list):
+    #Step through every item in the list
+    for item in the_list:
+        #identify odd numbers
+        #if odd, add one to a variable
+
+        #return the variable
 
 
 # Here are the tests
