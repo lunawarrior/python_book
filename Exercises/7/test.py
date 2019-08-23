@@ -6,5 +6,5 @@ def test(value, gold):
     if value == gold:
         msg = "Test at line {0} ok.".format(linenum)
     else:
-        msg = ("Test at line {0} FAILED, got {}, expected {}.".format(linenum, value, gold))
+        msg = ("Test at line {0} FAILED, got {1}, expected {2}.".format(linenum, value, gold))
     print(msg)
