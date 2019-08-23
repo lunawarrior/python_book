@@ -9,5 +9,5 @@ from test import test
 
 
 # Here are the tests
-test(count_5(['a', 'word', 'abcde', 'exact', 'five']) == 2)
-test(count_5(['a', 'word', 'abcde', 'exact', 'five', 'thisa', 'hijlk']) == 4)
+test(count_5(['a', 'word', 'abcde', 'exact', 'five']), 2)
+test(count_5(['a', 'word', 'abcde', 'exact', 'five', 'thisa', 'hijlk']), 4)
