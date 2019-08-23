@@ -7,6 +7,13 @@ Remember the definition of an even number.  When divided by 2, the remainder sho
 from test import test
 
 #Define your sum_even function here
+def sum_even(the_list):
+    for item in the_list:
+        if item % 2 == 0:
+            print(item)
+             
+            
+
 
 
 
