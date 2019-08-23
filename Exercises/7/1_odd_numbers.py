@@ -2,6 +2,7 @@
 This is the first exercise in chapter 7
 
 Write a function to count how many odd numbers are in a list.
+Remember the definition of an odd number.  When divided by 2, the remainder should be 1
 '''
 from test import test
 
