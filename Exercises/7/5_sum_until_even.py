@@ -12,6 +12,6 @@ from test import test
 
 
 # Here are the tests
-test(sum_until_even([1, 3, 3, 4, 5, 6, 7, 8, 9, 10]) == 7)
-test(sum_until_even([1, 5, 3, 1]) == 10)
-test(sum_until_even([3, -5, 6, 8]) == -2)
+test(sum_until_even([1, 3, 3, 4, 5, 6, 7, 8, 9, 10]), 7)
+test(sum_until_even([1, 5, 3, 1]), 10)
+test(sum_until_even([3, -5, 6, 8]), -2)
