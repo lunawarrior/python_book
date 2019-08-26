@@ -7,6 +7,14 @@ Remember the definition of an odd number.  When divided by 2, the remainder shou
 from test import test
 
 #Define your count_odd function here
+def count_odd(numbers):
+    count = 0
+    for item in numbers:
+        if item % 2 == 1:
+            count = count + 1
+    
+    return count
+
 
 
 # Here are the tests
