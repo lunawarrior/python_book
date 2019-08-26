@@ -8,7 +8,15 @@ from test import test
 
 #Define your count_odd function here
 def count_odd(numbers):
-    if(numbers [0] % 2 == 2)
+    count = 0
+    for item in numbers:
+        if(item % 2 == 1):
+            count = count + 1
+    return count
+            
+
+
+        
 
 # Here are the tests
 test(count_odd([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]), 5)
