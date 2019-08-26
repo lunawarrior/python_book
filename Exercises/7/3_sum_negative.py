@@ -6,7 +6,12 @@ Write a function to sum all of the negative numbers in a list.
 from test import test
 
 #Define your sum_negative function here
-
+def sum_negative(the_list):
+    total = 0
+    for item in the_list:
+        if item < 0:
+            total = total + item
+    return total
 
 
 # Here are the tests
