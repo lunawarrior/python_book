@@ -8,6 +8,15 @@ I would suggest using a break
 from test import test
 
 #Define your count_until_sam function here
+def count_until_sam(the_list):
+    total = 0
+    for item in the_list:
+        if item == ("sam"):
+            total = total + 1
+            break
+        if item != ("sam"):
+            total = total + 1
+    return total
 
 
 # Here are the tests
