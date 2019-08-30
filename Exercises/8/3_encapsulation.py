@@ -6,6 +6,8 @@ Encapsulate the following code (lines 14-19) in a function named count_letters.
 generalize it so that it accepts the string and the letter as arguments. 
 Make the function return the number of characters, rather than print the answer. The caller should do the printing.
 
+I would suggest refreshing yourself on string functions here:
+http://openbookproject.net/thinkcs/python/english3e/strings.html#glossary
 
 '''
 from test import test
