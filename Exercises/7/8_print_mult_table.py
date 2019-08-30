@@ -16,5 +16,5 @@ def print_mult_table(high):
         print_multiples(i, high)
 
 #Call print_mult_table with various numbers, for example
-print_mult_table(5)
-# print_mult_table(7)
+#print_mult_table(5)
+print_mult_table(15)
