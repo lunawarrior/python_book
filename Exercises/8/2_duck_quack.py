@@ -6,7 +6,7 @@ so that "Ouack" and "Quack" are spelled correctly.
 
 
 I would suggest refreshing yourself on string functions here:
-http://openbookproject.net/thinkcs/python/english3e/strings.html#glossary
+http://openbookproject.net/thinkcs/python/english3e/strings.html#summary
 
 '''
 

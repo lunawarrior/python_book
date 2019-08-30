@@ -6,7 +6,7 @@ What is the result of each of the following?
 For each line examine the code and predict what the output will be.  Then modify that line to print out the result
 
 I would suggest refreshing yourself on string functions here:
-http://openbookproject.net/thinkcs/python/english3e/strings.html#glossary
+http://openbookproject.net/thinkcs/python/english3e/strings.html#summary
 
 '''
 
