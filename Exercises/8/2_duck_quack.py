@@ -2,8 +2,7 @@
 '''
 Modify the following code
 so that it produces the output on the following two lines:
-Ouack
-Quack
+so that "Ouack" and "Quack" are spelled correctly.
 
 
 I would suggest refreshing yourself on string functions here:
