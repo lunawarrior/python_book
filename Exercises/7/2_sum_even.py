@@ -11,6 +11,6 @@ from test import test
 
 
 # Here are the tests
-test(sum_even([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) == 30)
-test(sum_even([1, -1, 1, 1]) == 0)
-test(sum_even([3, 4, -6, 8]) == 4)
+test(sum_even([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]), 30)
+test(sum_even([1, -1, 1, 1]), 0)
+test(sum_even([3, 4, -6, 8]), 6)
