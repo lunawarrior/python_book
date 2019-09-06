@@ -4,6 +4,8 @@ This is the eighth exercise in chapter 7
 Trace the execution of the last version of print_mult_table and figure out how it works.
 
 There are no tests, examine the code and figure out how it works.  The debuger may be useful. 
+
+Homework, modify this to take two inputs, one for how wide it is and one for how tall it is
 '''
 
 def print_multiples(n, high):
