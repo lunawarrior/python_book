@@ -9,6 +9,21 @@ I would suggest using a break
 from test import test
 
 #Define your sum_until_even function here
+def sum_until_even(the_list):
+    sum = 0
+    for item in the_list:
+        if item % 2 == 0:
+            break
+
+
+        else:
+            sum = sum + item
+    return sum 
+            
+            
+
+
+    
 
 
 # Here are the tests

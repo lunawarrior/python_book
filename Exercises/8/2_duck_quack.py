@@ -14,5 +14,14 @@ prefixes = "JKLMNOPQ"
 suffix = "ack"
 
 for letter in prefixes:
-    print(letter + suffix)
+    if letter == 'Q':
+        print('Q' + "uack")
+    elif letter == 'O':
+        print('O' + 'uack')
+    else:
+        print(letter + suffix)
+        
+        
+
+    
 

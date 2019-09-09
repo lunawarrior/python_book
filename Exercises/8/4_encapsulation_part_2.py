@@ -6,6 +6,14 @@ with the optional third parameter to locate new occurrences of the letter being 
 
 '''
 from test import test
+def count_letters(the_word, the_letter, the_number = 0):
+    fruit = the_word[the_number:] 
+    count = 0
+    for char in fruit:
+        if char == the_letter:
+            # count = count + 1
+            count += 1
+    return count
 
 
 
