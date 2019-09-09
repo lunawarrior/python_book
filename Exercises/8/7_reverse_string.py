@@ -15,6 +15,7 @@ from test import test
 
 test(reverse("happy"), "yppah")
 test(reverse("Python"), "nohtyP")
+test(reverse("racecar"), "racecar")
 test(reverse(""), "")
 test(reverse("a"), "a")
 
