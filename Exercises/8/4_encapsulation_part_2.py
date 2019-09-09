@@ -6,8 +6,15 @@ with the optional third parameter to locate new occurrences of the letter being 
 
 '''
 from test import test
-
-
+def count_letters(string, letter, number = 0):
+    count = 0
+    print(string[number:])
+    for char in string[number:]: 
+        if char == letter:
+            
+            count += 1
+    return count
+        
 
 
 

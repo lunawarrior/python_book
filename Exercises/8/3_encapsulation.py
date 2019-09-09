@@ -13,13 +13,21 @@ http://openbookproject.net/thinkcs/python/english3e/strings.html#summary
 from test import test
 
 
-fruit = "banana"
-count = 0
-for char in fruit:
-    if char == "a":
-        count += 1
-print(count)
 
+# fruit = "banana"
+# count = 0
+# for char in fruit:
+#     if char == "a":
+#         count += 1
+# print(count)
+
+def count_letters(string, letter):
+    count = 0
+    for char in string:
+        if char == letter:
+            count += 1
+    return count
+            
 
 
 test(count_letters('banana', 'a'), 3)

@@ -13,6 +13,16 @@ http://openbookproject.net/thinkcs/python/english3e/strings.html#summary
 prefixes = "JKLMNOPQ"
 suffix = "ack"
 
+#if ( letter + suffix == "Qack"):
 for letter in prefixes:
-    print(letter + suffix)
+    if(letter + suffix == "Qack"):
+        print("Quack")
+    elif(letter + suffix == "Oack"):
+        print("Ouack")
+    else:
+        print(letter + suffix)
+
+        
+    
+        
 

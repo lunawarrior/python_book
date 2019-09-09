@@ -11,10 +11,10 @@ http://openbookproject.net/thinkcs/python/english3e/strings.html#summary
 '''
 
 
-"Python"[1]
-"Strings are sequences of characters."[5]
-len("wonderful")
-"Mystery"[:4]
+print("Python"[1])
+print("Strings are sequences of characters."[5])
+print(len("wonderful"))
+print("Mystery"[:4])
 "p" in "Pineapple"
 "apple" in "Pineapple"
 "pear" not in "Pineapple"
