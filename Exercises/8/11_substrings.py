@@ -5,8 +5,14 @@ Write a function that counts how many times a substring occurs in a string
 '''
 from test import test
 
-
-
+def count(substring, the_string):
+    count = 0
+    for num in range(len(the_string)):
+        # print(the_string[num:num+2])
+        if (the_string[num:num+len(substring)] == substring):
+            count = count + 1
+    return count
+    
 
 
 
