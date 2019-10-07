@@ -46,4 +46,66 @@
 # print(a_list)
 
 
-#At 11.9
+#11.9 Objects and references
+# # a = "banana"
+# # b = "banana"
+# # print(a is b)
+
+# a = [1, 2, 3] 
+# b = [1, 2, 3]
+# # # print( a == b )
+# # # print( a is b )
+
+# a[1] = 5
+# print(a)
+# print(b)
+
+# a = [1, 2, 3]
+# b = a
+
+# # print( a == b )
+# # print( a is b )
+# # print(a)
+# # print(b)
+
+# a[1] = 5
+# print(a)
+# print(b)
+
+# # 11.11: Cloning lists
+# a = [1, 2, 3]
+# b = a[:]
+
+# a[1] = 5
+# print(a)
+# print(b)
+
+
+# lists and for loops
+# friends = ["Joe", "Zoe", "Brad", "Angelina", "Zuki", "Thandi", "Paris"]
+# for friend in friends:
+#     print(friend)
+
+# for i in range(20):
+#     print(i)
+
+# for fruit in ["banana", "apple", "quince"]:
+#     print("I like to eat " + fruit + "s!")
+
+# for number in range(20):
+#     if number % 3 == 0:
+#         print(number)
+
+xs = [1, 2, 3, 4, 5]
+
+# for i in range(len(xs)):
+#     xs[i] = xs[i]**2
+
+# print(xs)
+
+for i in xs:
+    if i % 2 == 0:
+        xs.append(i+1)
+    print(i)
+
+
