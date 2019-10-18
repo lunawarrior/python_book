@@ -47,9 +47,9 @@
 
 
 #11.9 Objects and references
-# # a = "banana"
-# # b = "banana"
-# # print(a is b)
+a = "banana"
+b = "banana"
+print(a is b)
 
 # a = [1, 2, 3] 
 # b = [1, 2, 3]
@@ -88,13 +88,13 @@
 # for friend in friends:
 #     print(friend)
 
-# Lists are mutable, and you often want to traverse the list, changing each element.
-# The following code squares each element in the list xs
-xs = [1, 2, 3, 4, 5]
+# # Lists are mutable, and you often want to traverse the list, changing each element.
+# # The following code squares each element in the list xs
+# xs = [1, 2, 3, 4, 5]
 
-for i in range(len(xs)):
-    xs[i] = xs[i]**2
-print(xs)
+# for i in range(len(xs)):
+#     xs[i] = xs[i]**2
+# print(xs)
 
 
 # # However range(len(xs)) is being used to get the index, 

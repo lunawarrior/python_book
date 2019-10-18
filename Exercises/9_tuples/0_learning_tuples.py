@@ -1,17 +1,49 @@
-julia = ("Julia", "Roberts", 1967, "Duplicity", 2009, "Actress", "Atlanta, Georgia")
 
-# # print(julia)
+# julia = ("Julia", "Roberts", 1967, "Duplicity", 2009, "Actress", "Atlanta, Georgia")
 
-# (name, surname, b_year, movie, m_year, profession, b_place) = julia
+# # # print(julia)
 
-# def divide_with_remainder(top, bottom):
-#     result = top // bottom
-#     remainder = top % bottom
-#     return (result, remainder)
+# # (name, surname, b_year, movie, m_year, profession, b_place) = julia
 
-# a, b = divide_with_remainder(13, 2)
-# # print(a)
-# # print(b)
+# # print(name)
+
+# test_tuple = ('abc', 'def', ('item 0', 'item 1'))
+
+# # print(test_tuple)
+
+# # print(test_tuple[0])
+# # print(test_tuple[1])
+# # print(test_tuple[2])
+# # print(test_tuple[2][0])
+# # print(test_tuple[2][0][1])
+
+# # test_tuple[1] = 'something'
+# # 
+# # print(test_tuple[0:2])
+
+# test_tuple2 = test_tuple[:2] + ( 'ghi', 'fourth')
+
+# print(test_tuple2)
+# print(test_tuple2[3])
+
+
+
+
+def divide_with_remainder(numbers):
+    result = numbers[0] // numbers[1]
+    remainder = numbers[0] % numbers[1]
+    return (result, remainder)
+
+a, b = divide_with_remainder( (13, 2) )
+
+
+print(a)
+print(b)
+
+d, e = divide_with_remainder(15, 4)
+print(d)
+print(e)
+
 
 # #Swap a and b
 # (b, a) = (a, b)
