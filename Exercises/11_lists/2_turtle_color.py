@@ -8,11 +8,12 @@
 
 import turtle
 
-# wn = turtle.Screen()        # Set up the window and its attributes
+wn = turtle.Screen()        # Set up the window and its attributes
 
 tess = turtle.Turtle()
 alex = tess
 alex.color("hotpink")
 
-# tess.forward(50)
-# wn.mainloop()
+tess.forward(50)
+tess.color('blue')
+wn.mainloop()
