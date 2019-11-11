@@ -46,10 +46,10 @@
 # print(a_list)
 
 
-#11.9 Objects and references
-a = "banana"
-b = "banana"
-print(a is b)
+# #11.9 Objects and references
+# a = "banana"
+# b = "banana"
+# print(a is b)
 
 # a = [1, 2, 3] 
 # b = [1, 2, 3]
@@ -164,4 +164,12 @@ print(a is b)
 #     append it to result
 # return the result
 
+
+#Using zip
+first = ['a', 'b', 'c', 'd']
+second = ['second a', 'second b', 'second c', 'second d']
+
+for i, j in zip(first, second):
+    print(i)
+    print(j)
 
