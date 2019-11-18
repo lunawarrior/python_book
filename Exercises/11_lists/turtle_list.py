@@ -6,9 +6,9 @@ wn = turtle.Screen()
 colors = ['green', 'blue', 'yellow', 'red', 'black', 'teal']
 
 alex.forward(50)
-alex.left(90)   
+alex.left(90)
 
-alex.forward(50)   
+alex.forward(50)
 alex.left(90)
 
 alex.forward(50)
