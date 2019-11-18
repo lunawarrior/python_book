@@ -130,12 +130,12 @@
 
 # # 11.14 List Methods
 # # Lists have several built-in methods, we will start with "append", which adds an item to the end.
-# my_list = []
-# my_list.append(5)
-# my_list.append(15)
-# my_list.append(27)
-# my_list.append(3)
-# print(my_list)
+my_list = []
+my_list.append(5)
+my_list.append(15)
+my_list.append(27)
+my_list.append(3)
+print(my_list)
 
 
 # # 11.15 Pure functions and modifiers
