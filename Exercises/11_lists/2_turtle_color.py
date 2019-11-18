@@ -16,4 +16,5 @@ alex.color("hotpink")
 tess.color("green")
 
 tess.forward(50)
+tess.color('blue')
 wn.mainloop()
