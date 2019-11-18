@@ -1,3 +1,3 @@
 import to_import
-print("oi")
+print("`    oi")
 to_import.foo()
