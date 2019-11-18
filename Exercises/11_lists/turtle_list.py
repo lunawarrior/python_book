@@ -3,19 +3,16 @@ import turtle             # Allows us to use turtles
 alex = turtle.Turtle() 
 wn = turtle.Screen()
 
-colors = ['green', 'blue', 'yellow', 'red', 'black', 'teal']
+colors = ['green', 'blue', 'yellow', 'red', 'black', 'teal', 'gray']
 
-alex.forward(50)
-alex.left(90)
+for i in colors[3::-1]:
+    alex.color(i)
+    alex.forward(50)
+    alex.left(90)
+   
 
-alex.forward(50)
-alex.left(90)
 
-alex.forward(50)
-alex.left(90)
 
-alex.forward(50)
-alex.left(90)
 
 wn.mainloop()
 

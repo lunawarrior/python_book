@@ -10,6 +10,6 @@ def add_vectors(a , b):
 
     
 
-# test(add_vectors([1, 1], [1, 1]), [2, 2])
-# test(add_vectors([1, 2], [1, 4]), [2, 6])
+test(add_vectors([1, 1], [1, 1]), [2, 2])
+test(add_vectors([1, 2], [1, 4]), [2, 6])
 test(add_vectors([1, 2, 3], [4, 5, 6]), [5, 7, 9])
