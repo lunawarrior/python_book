@@ -8,5 +8,4 @@
 
 the_list = list(range(10, 0, -2))
 # the_list = list(range(0, 10, 2))
-
 print(the_list)
