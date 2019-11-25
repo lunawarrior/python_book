@@ -11,3 +11,5 @@ def load_words_from_file(filename):
 bigger_vocab = load_words_from_file("Exercises/14_list_algorithms/vocab.txt")
 print("There are {0} words in the vocab, starting with\n {1} "
               .format(len(bigger_vocab), bigger_vocab[:6]))
+
+#How many words are in this list?   

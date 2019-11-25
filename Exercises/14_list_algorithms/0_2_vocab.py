@@ -10,13 +10,19 @@
 # 
 # Test data can usually be very small, even if we intend to finally use our program for larger cases:
 
-# Try pulling your search_linear function in from the last problem.
+# I have provided a version of the search_linear from the last problem
 
 
 vocab = ["apple", "boy", "dog", "down",
                           "fell", "girl", "grass", "the", "tree"]
 book_words = "the apple fell from the tree to the grass".split()
 
+def search_linear(xs, target):
+    """ Find and return the index of target in sequence xs """
+    for (i, v) in enumerate(xs):
+       if v == target:
+           return i
+    return -1
 
 
 
