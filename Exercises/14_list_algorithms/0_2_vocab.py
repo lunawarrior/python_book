@@ -8,7 +8,8 @@
 # Let us assume we can read a vocabulary of words into our program, and read the text of a book, 
 # and split it into words. Let us write some tests for what we need to do next. 
 # 
-# Test data can usually be very small, even if we intend to finally use our program for larger cases:
+# Test data can usually be very small, even if we intend to finally use our program for 
+# larger cases:
 
 # I have provided a version of the search_linear from the last problem
 
