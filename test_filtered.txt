@@ -1,0 +1,8 @@
+My first file written from Python
+---------------------------------
+Hello, world!
+this
+is 
+also
+a
+test
