@@ -24,7 +24,13 @@ def search_linear(xs, target):
        if v == target:
            return i
     return -1
-
+def find_unknown_words(vocab, words):
+    to_return = []
+    for word in words:
+        index = search_linear(vocab, word)
+        if index == -1:
+            to_return.append(word)
+    return to_return
 
 
 from test import test

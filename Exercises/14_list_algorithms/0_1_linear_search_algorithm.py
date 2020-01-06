@@ -8,6 +8,14 @@
 
 friends = ["Joe", "Zoe", "Brad", "Angelina", "Zuki", "Thandi", "Paris"]
 
+def search_linear(a_list,item):
+    for (i,val) in enumerate(a_list):
+        if (val == item ):
+            print('Found it!')
+            return i
+    return -1
+        
+
 
 
 
