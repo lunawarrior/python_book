@@ -26,11 +26,12 @@ def midpoint(p1, p2):
     return Point(mx, my)
 
 p = Point(3, 5)         # Instantiate an object of type Point
-p2 = Point()
+p2 = Point(5, 8)
 
 half = p.halfway(p2)
 
 
+print(p.distance_from_origin())
 print("p:  (x={0}, y={1})".format(p.x, p.y))
 print("p:  {0}".format(p))
 print("p2: (x={0}, y={1})".format(p2.x, p2.y))
