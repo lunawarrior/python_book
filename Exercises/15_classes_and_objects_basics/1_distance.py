@@ -1,0 +1,11 @@
+from point import Point
+
+#Rewrite the distance function so that it takes two instances of the Point class rather than 4 ints
+
+def distance(x1, y1, x2, y2):
+    dx = x2 - x1
+    dy = y2 - y1
+    dsquared = dx*dx + dy*dy
+    result = dsquared**0.5
+    return result
+
