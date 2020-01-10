@@ -1,3 +1,8 @@
+# Add a method reflect_x to Point which returns a new Point, 
+# one which is the reflection of the point about the x-axis. 
+# For example, Point(3, 5).reflect_x() is (-3, 5)
+import test
+
 class Point:
     """ Point class represents and manipulates x,y coords. """
 
@@ -19,21 +24,16 @@ class Point:
         my = (self.y + target.y)/2
         return Point(mx, my)
 
-def midpoint(p1, p2):
-    """ Return the midpoint of points p1 and p2 """
-    mx = (p1.x + p2.x)/2
-    my = (p1.y + p2.y)/2
-    return Point(mx, my)
 
-if __name__ == '__main__':
-    p = Point(3, 5)         # Instantiate an object of type Point
-    p2 = Point()
+#Tests
+my_point = Point(3, 5)
 
-    half = p.halfway(p2)
+reflected = my_point.reflect_x()
+test.test(reflected.x == -3)
+test.test(reflected.y == 5)
 
+my_point2 = Point(-5, 2)
 
-    print("p:  (x={0}, y={1})".format(p.x, p.y))
-    print("p:  {0}".format(p))
-    print("p2: (x={0}, y={1})".format(p2.x, p2.y))
-    print("half: {}".format(half))
-    print(p.distance_from_origin())
+reflected2 = my_point.reflect_x()
+test.test(reflected2.x == 5)
+test.test(reflected2.y == 2)
