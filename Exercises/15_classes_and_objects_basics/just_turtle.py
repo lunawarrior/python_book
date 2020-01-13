@@ -17,7 +17,7 @@ def make_dot(x, y, my_turtle = None):
     if my_turtle == None:
         my_turtle = turtle.Turtle()
         my_turtle.shape("circle")
-        my_turtle.shapesize(.2, .2, .2)
+        my_turtle.shapesize(.2, .2)
         my_turtle.penup()
     xpos = x * 10
     ypos = y * 10
