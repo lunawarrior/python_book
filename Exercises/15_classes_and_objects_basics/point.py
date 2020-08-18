@@ -30,12 +30,32 @@ class Point:
         ypos = self.y * 10
         my_turtle.setpos(xpos, ypos)
 
+    def make_dot(self, my_turtle = None):
+        if my_turtle == None:
+            my_turtle = turtle.Turtle()
+            my_turtle.shape("circle")
+            my_turtle.shapesize(.2, .2)
+            my_turtle.penup()
+        xpos = self.x * 10
+        ypos = self.y * 10
+        my_turtle.setpos(xpos, ypos)
+
 def midpoint(p1, p2):
     """ Return the midpoint of points p1 and p2 """
     mx = (p1.x + p2.x)/2
     my = (p1.y + p2.y)/2
     return Point(mx, my)
     
+def make_crosshairs():
+    crosshairs = turtle.Turtle()
+    crosshairs.speed(0)
+    crosshairs.backward(1000)
+    crosshairs.forward(2000)
+    crosshairs.backward(1000)
+    crosshairs.left(90)
+    crosshairs.backward(1000)
+    crosshairs.forward(2000)
+
 def make_crosshairs():
     crosshairs = turtle.Turtle()
     crosshairs.speed(0)
