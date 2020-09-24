@@ -34,6 +34,6 @@ test.test(reflected.y == 5)
 
 my_point2 = Point(-5, 2)
 
-reflected2 = my_point.reflect_x()
+reflected2 = my_point2.reflect_x()
 test.test(reflected2.x == 5)
 test.test(reflected2.y == 2)
